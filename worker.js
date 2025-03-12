@@ -14,7 +14,7 @@ export default {
       });
     }
 
-    if (maintenanceMode == "true" ) {
+    if (maintenanceMode === "true" ) {
       return new Response("Challenge is currently down for maintenance. Please try again later.", {
         status: 503,
         headers: {
