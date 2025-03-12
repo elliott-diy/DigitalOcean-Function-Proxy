@@ -5,8 +5,8 @@ This Cloudflare Worker script is designed to protect Digital Ocean Functions by 
 ## Features
 
 - **Rate Limiting**: Limits the number of requests from a single IP address to prevent abuse.
-- **DDoS Protection**: Helps mitigate DDoS attacks by rate limiting and filtering requests.
-- **Maintenance Mode**: Allows you to temporarily disable access to the function for maintenance purposes.
+- **DDoS Protection**: Helps mitigate DDoS attacks by rate limiting, filtering requests and utilizing Cloudflares WAF. 
+- **Maintenance Mode**: Allows you to disable access to the function for maintenance purposes temporarily.
 
 ## Environment Variables
 
